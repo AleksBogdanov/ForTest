@@ -1,5 +1,7 @@
+#!/usr/bin/env python
+
 import fire
-from mylib import logic
+from src.logic import wiki
 
 if __name__ == "__main__":
-    fire.Fire(logic)
+    fire.Fire(wiki)
